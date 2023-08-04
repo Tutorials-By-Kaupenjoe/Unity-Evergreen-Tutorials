@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
 
     // The Speed variable can be used in each of the 5 Movement Variants
     [SerializeField]
-    private float speed = 3f;
+    public float speed = 3f;
 
     // The rigidbody is only used in two of the five Variants
     // If the rigidbody is used, the Physics System is also being used! 
