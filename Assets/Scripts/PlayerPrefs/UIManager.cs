@@ -41,8 +41,8 @@ public class UIManager : MonoBehaviour
         PopulateCardDropdown();
         OnLoad();
 
-        saveButton.onClick.AddListener(() => { savePlayerPrefs.SaveData(); OnLoad(); });
-        loadButton.onClick.AddListener(() => { savePlayerPrefs.LoadData(); OnLoad(); });
+        saveButton.onClick.AddListener(() => { OnLoad(); });
+        loadButton.onClick.AddListener(() => { OnLoad(); });
 
         OnDataChanges();
     }
